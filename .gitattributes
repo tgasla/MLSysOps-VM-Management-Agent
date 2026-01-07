@@ -1,1 +1,2 @@
+model/vm_management_agent.onnx filter=lfs diff=lfs merge=lfs -text
 *.onnx filter=lfs diff=lfs merge=lfs -text
