@@ -152,3 +152,13 @@ The file `model/model_config.json` serves as the **Model Card**. It defines the 
 - `action_decoding`: Maps the model's integer outputs to human-readable names (e.g., ID 0 -> "Small", ID 2 -> "Large").
 
 - `hardware_definitions`: Defines the VM types/flavors the model learned to manage.
+
+## 🇪🇺 Acknowledgments & Funding
+
+This repository was developed by **University College Dublin (UCD)** as part of the **MLSysOps** project.
+
+The MLSysOps consortium consists of **12 European partners** across academia and industry, working together to optimize AI-driven operations in the Cloud-Edge Continuum.
+
+This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement **No 101092912**.
+
+Learn more at [mlsysops.eu](https://mlsysops.eu)
