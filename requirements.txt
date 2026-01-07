@@ -1,0 +1,2 @@
+numpy
+onnxruntime>=1.15.0

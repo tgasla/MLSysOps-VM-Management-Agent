@@ -1,0 +1,54 @@
+{
+    "model_metadata": {
+        "name": "DRL_VM_Management_Agent",
+        "version": "1.0.0",
+        "description": "MaskablePPO agent for VM management optimization.",
+        "framework": "ONNX (Opset 18)"
+    },
+    "input_spec": {
+        "vector_length": 801,
+        "max_hosts": 32,
+        "max_job_cores": 8
+    },
+    "output_spec": {
+        "structure": "MultiDiscrete",
+        "vector_length": 4,
+        "index_definitions": {
+            "0": "action_type",
+            "1": "host_id",
+            "2": "vm_id",
+            "3": "vm_type_id"
+        }
+    },
+    "hardware_definitions": {
+        "host_specs": {
+            "cores": 16
+        },
+        "vm_types": {
+            "0": {
+                "name": "Small",
+                "cores": 2
+            },
+            "1": {
+                "name": "Medium",
+                "cores": 4
+            },
+            "2": {
+                "name": "Large",
+                "cores": 8
+            }
+        }
+    },
+    "action_decoding": {
+        "action_type": {
+            "0": "DO_NOTHING",
+            "1": "CREATE_VM",
+            "2": "DESTROY_VM"
+        },
+        "vm_type_id": {
+            "0": "Small",
+            "1": "Medium",
+            "2": "Large"
+        }
+    }
+}
