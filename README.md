@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18177473.svg)](https://doi.org/10.5281/zenodo.18177473)
+
 # DRL VM Management Agent (ONNX)
 
 This repository contains a Deep Reinforcement Learning agent (trained using Maskable PPO) for optimizing Virtual Machine placement and lifecycle management. The model is exported as a platform-independent **ONNX** file for easy deployment.
