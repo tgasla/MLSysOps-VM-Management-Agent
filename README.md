@@ -162,3 +162,7 @@ The MLSysOps consortium consists of **12 European partners** across academia and
 This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement **No 101092912**.
 
 Learn more at [mlsysops.eu](https://mlsysops.eu)
+
+<p align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg" alt="EU Flag" width="100"/>
+</p>

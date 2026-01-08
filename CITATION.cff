@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Aslanidis"
+  given-names: "Theodoros"
+  affiliation: "University College Dublin"
+  orcid: "https://orcid.org/0009-0000-0996-8905"
+- family-names: "Chatzopoulos"
+  given-names: "Dimitris"
+  affiliation: "University College Dublin"
+  orcid: "https://orcid.org/0000-0002-4765-5085"
+title: "DRL VM Management Agent (ONNX)"
+version: 1.0.0
+doi: 10.5281/zenodo.18177473
+date-released: 2026-07-01
+url: "https://github.com/tgasla/MLSysOps-VM-Management-Agent"
