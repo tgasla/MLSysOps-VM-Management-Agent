@@ -155,6 +155,12 @@ The file `model/model_config.json` serves as the **Model Card**. It defines the 
 
 - `hardware_definitions`: Defines the VM types/flavors the model learned to manage.
 
+## 📖 Citation
+
+If you use this repository or the provided ONNX model in your research, please cite it.
+
+Citation metadata is available via the **Zenodo DOI** above and in the [CITATION.cff](./CITATION.cff) file.
+
 ## 🇪🇺 Acknowledgments & Funding
 
 This repository was developed by **University College Dublin (UCD)** as part of the **MLSysOps** project.
