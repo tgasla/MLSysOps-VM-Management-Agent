@@ -89,7 +89,7 @@ python demo.py
    -> VM Type:  Large (ID: 2)
 ```
 
-## 💻 Python Usage Guide
+## 💻 Python Usage Guide
 If you want to integrate this agent into your own application, here is the standard workflow:
 
 ```Python
